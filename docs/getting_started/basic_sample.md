@@ -58,7 +58,7 @@ model.render()
 
 You will see the following image.
 
-![Model Image](../img/model.png)
+![Model Image](./img/model.png)
 
 
 The ``AutomatonDisplay`` class provides various visualization-related functions.
