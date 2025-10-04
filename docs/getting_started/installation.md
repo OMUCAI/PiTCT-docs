@@ -1,21 +1,16 @@
 # Installation
 
-This part of the documentation covers the installation of PyTCT.
+This part of the documentation covers the installation of PiTCT.
 
-## Download and Install PyTCT
-PyTCT is published as a Python package and can be installed with pip. However, it is not distributed by Pypi, so please download the installation file from the link below.
-
-[Get Installation File](https://github.com/OMUCAI/PyTCT-docs/releases/latest){ .md-button }
-
-Next, Open up a terminal and install PyTCT with:
+## 1. Install PiTCT
 
 ```bash
-pip install PyTCT-***.whl
+pip install pitct
 ```
 
-## Install Graphviz
+## 2. Install Graphviz
 
-PyTCT depend on [Graphviz](https://graphviz.org/).
+PiTCT depend on [Graphviz](https://graphviz.org/).
 
 Please install graphviz from
 
@@ -23,3 +18,14 @@ Please install graphviz from
 - [Homebrew(Mac)](https://graphviz.org/download/#mac)
 - [Linux](https://graphviz.org/download/)
 
+---
+
+## Download wheel file
+If you want to download wheel file, please download below button.
+[Get Installation File](https://github.com/OMUCAI/PiTCT/releases/latest){ .md-button }
+
+Next, Open up a terminal and install PiTCT with:
+
+```bash
+pip install pitct-***.whl
+```
