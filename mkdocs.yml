@@ -67,6 +67,8 @@ nav:
     - trans: reference/trans.md
     - transnum: reference/transnum.md
     - trim: reference/trim.md
+  - Migration:
+    - From v0 to v1: migration/v0_to_v1.md
     
 
 
