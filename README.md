@@ -38,23 +38,13 @@ PiTCT Documents
     uv run mkdocs serve
     ```
 
-### Adding New Document Files
+### Adding New Directory
 
-When you add a new Markdown file to the documentation, follow these steps to ensure it is properly integrated and displayed:
+When you add a new directory to the documentation, follow these steps to ensure it is properly integrated and displayed:
 
-1. **Add the Markdown file**:
-    - Place your new Markdown file in the `docs/` directory.
-
-2. **Update `mkdocs.yml`**:
-    - Open the `mkdocs.yml` configuration file.
-    - Add an entry for your new Markdown file under the `nav` section to include it in the navigation.
-
-    Example:
-    ```yaml
-    nav:
-      - Home: index.md
-      - New Page: new_page.md
-    ```
+1. **Update `.nav.yml`**:
+    - Open the `.nav.yml` configuration file.
+    - Add an settings for your new directory under the `nav` section
 
 ### Reflect Changes on the Production Site
 
