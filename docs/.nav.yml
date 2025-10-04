@@ -1,0 +1,9 @@
+nav:
+  - Introduction: index.md
+  - Getting Started:
+    - Installation: getting_started/installation.md
+    - "getting_started/*.md"
+  - Reference: 
+    - "reference/*.md"
+  - Migration:
+    - "migration/*.md"

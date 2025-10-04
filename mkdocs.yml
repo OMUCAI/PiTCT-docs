@@ -19,7 +19,7 @@ theme:
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    - navigation.expand
+    # - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.instant
@@ -46,29 +46,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.superfences
+
+plugins:
+  - search
+  - awesome-nav
   
-nav:
-  - Introduction: index.md
-  - Getting started:
-    - Installation: getting_started/installation.md
-    - Run Basic Sample: getting_started/basic_sample.md
-  - Reference: 
-    - allevents: reference/allevents.md
-    #- AutomatonDisplay: reference/automaton_display.md
-    - complement: reference/complement.md
-    - condat: reference/condat.md
-    - create: reference/create.md
-    - display_automaton: reference/display_automaton.md
-    - meet: reference/meet.md
-    - mutex: reference/mutex.md
-    - printdat: reference/printdat.md
-    - statenum: reference/statenum.md
-    - sync: reference/sync.md
-    - trans: reference/trans.md
-    - transnum: reference/transnum.md
-    - trim: reference/trim.md
-  - Migration:
-    - From v0 to v1: migration/v0_to_v1.md
-    
-
-
