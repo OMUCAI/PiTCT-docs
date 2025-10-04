@@ -1,6 +1,6 @@
-# PyTCT-docs
+# PiTCT-docs
 
-PyTCT Documents
+PiTCT Documents
 
 ## Setup Instructions
 

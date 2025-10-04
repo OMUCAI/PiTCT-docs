@@ -12,6 +12,6 @@ check reachability of the automaton G
 
 ```python title="sample 1"
 
-pytct.is_reachable('G')
+pitct.is_reachable('G')
 
 ```

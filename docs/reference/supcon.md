@@ -13,6 +13,6 @@
 ## Example
 
 ```
-pytct.supcon('SUP','G','SPEC')
+pitct.supcon('SUP','G','SPEC')
 
 ```

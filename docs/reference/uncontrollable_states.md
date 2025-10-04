@@ -11,6 +11,6 @@
 ## Example
 
 ```
-pytct.uncontrollable_states('G1','G2')
+pitct.uncontrollable_states('G1','G2')
 
 ```

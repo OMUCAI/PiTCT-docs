@@ -12,6 +12,6 @@ check if the automaton G is trim
 
 ```python title="sample 1"
 
-pytct.is_trim('G')
+pitct.is_trim('G')
 
 ```

@@ -17,9 +17,9 @@ delta = [
     (1, 11, 0),
 ]
 Qm = [0]
-pytct.create("G", 2, delta, Qm)
+pitct.create("G", 2, delta, Qm)
 
-pytct.complement("Gco", "G", [])
+pitct.complement("Gco", "G", [])
 
 ```
 
@@ -29,8 +29,8 @@ delta = [
     (1, 11, 0),
 ]
 Qm = [0]
-pytct.create("G", 2, delta, Qm)
+pitct.create("G", 2, delta, Qm)
 
-pytct.complement("Gco", "G", [12,13])
+pitct.complement("Gco", "G", [12,13])
 
 ```

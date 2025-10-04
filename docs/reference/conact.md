@@ -14,6 +14,6 @@ returns control data DAT for the supervisor DES2, which controls DES1
 
 ```python title="sample 1"
 
-DAT=pytct.conact('DES1', 'DES2')
+DAT=pitct.conact('DES1', 'DES2')
 
 ```

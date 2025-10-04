@@ -11,7 +11,7 @@ Create a working folder
 
 ```python title="sample 1"
 
-import pytct
-pytct.init('name')
+import pitct
+pitct.init('name')
 
 ```

@@ -12,6 +12,6 @@ check coreachability of automaton G
 
 ```python title="sample 1"
 
-pytct.is_coreachable('G')
+pitct.is_coreachable('G')
 
 ```

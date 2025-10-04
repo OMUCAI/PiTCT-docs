@@ -19,9 +19,9 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [0]
-pytct.create('DES', 4, delta, Qm)
+pitct.create('DES', 4, delta, Qm)
 
 
-pytct.blocking_states('DES')
+pitct.blocking_states('DES')
 
 ```

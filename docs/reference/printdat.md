@@ -13,8 +13,8 @@ convert a DAT file to a TXT file.
 
 ```python title="sample 1"
 
-pytct.condat("DAT", "PLANT", "SUP")
+pitct.condat("DAT", "PLANT", "SUP")
 
-pytct.printdat("TXT", "DAT")
+pitct.printdat("TXT", "DAT")
 
 ```

@@ -21,7 +21,7 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [3]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 
-pytct.shortest_string('G',1,3)
+pitct.shortest_string('G',1,3)
 ```

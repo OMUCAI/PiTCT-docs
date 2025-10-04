@@ -20,7 +20,7 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [3]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 
-pytct.reachable_string('G',2)
+pitct.reachable_string('G',2)
 ```

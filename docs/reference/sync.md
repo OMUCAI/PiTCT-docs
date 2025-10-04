@@ -17,7 +17,7 @@ delta1 = [
     (1, 12, 0),
 ]
 Qm = [0]
-pytct.create("DES1", 2, delta1, Qm)
+pitct.create("DES1", 2, delta1, Qm)
 
 
 delta2 = [
@@ -26,9 +26,9 @@ delta2 = [
     (2, 10, 0),
 ]
 Qm = [0]
-pytct.create("DES2", 3, delta2, Qm)
+pitct.create("DES2", 3, delta2, Qm)
 
-pytct.sync("DES", "DES1", "DES2")
+pitct.sync("DES", "DES1", "DES2")
 
 ```
 DES need not be coreachable

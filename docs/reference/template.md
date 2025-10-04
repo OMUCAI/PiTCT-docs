@@ -12,5 +12,5 @@ creates an automaton model of DES (a .DES file)
 
 ## Example
 ```python
-pytct.create()
+pitct.create()
 ```

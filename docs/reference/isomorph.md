@@ -13,7 +13,7 @@ verify if two automata (DES1,DES2) are the same (modulo relabeling states and ev
 
 ```
 
-pytct.isomorph('DES1', 'DES2')
+pitct.isomorph('DES1', 'DES2')
 
 ```
 

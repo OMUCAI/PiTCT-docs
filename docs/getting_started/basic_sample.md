@@ -1,24 +1,24 @@
-# PyTCT Basic Sample
+# PiTCT Basic Sample
 
-## Initialize PyTCT
+## Initialize PiTCT
 
-PyTCT will create a lot of files in the current directory. You may think it is disturbing.
-PyTCT has a feature its file save a specified directory. Let's setup. 
+PiTCT will create a lot of files in the current directory. You may think it is disturbing.
+PiTCT has a feature its file save a specified directory. Let's setup. 
 
 ```python
-import pytct
+import pitct
 
-pytct.init("save_dir")
+pitct.init("save_dir")
 ```
 
 That's all. When you run this program, you will have created a folder named save_dir. 
-If you run it again, you will get an error. This is because PyTCT does not allow you to recreate a folders with names that exist.
+If you run it again, you will get an error. This is because PiTCT does not allow you to recreate a folders with names that exist.
 If you want to overwrite, set the overwrite argument to True.
 
 ```python
-import pytct
+import pitct
 
-pytct.init("save_dir", overwrite=True)
+pitct.init("save_dir", overwrite=True)
 ```
 
 
@@ -36,7 +36,7 @@ delta = [
     (0,15,4)
 ]
 Qm = [0,1]
-pytct.create("model", 5, delta, Qm)
+pitct.create("model", 5, delta, Qm)
 ```
 
 you have to pass four argument to `create` function.
@@ -52,7 +52,7 @@ Here is example.
 
 ```python
 # Get AutomatonDisplay instance
-model = pytct.display_automaton("model")
+model = pitct.display_automaton("model")
 model.render()
 ```
 
@@ -63,5 +63,5 @@ You will see the following image.
 
 The ``AutomatonDisplay`` class provides various visualization-related functions.
 
-This completes the introduction of the simple PyTCT functions.
+This completes the introduction of the simple PiTCT functions.
 If you want to know more about the various functions, please go to reference page.

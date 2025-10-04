@@ -1,7 +1,7 @@
 [project]
-name = "pytct-docs"
+name = "pitct-docs"
 version = "0.1.0"
-description = "PyTCT Documents"
+description = "PiTCT Documents"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

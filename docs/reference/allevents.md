@@ -17,9 +17,9 @@ delta = [
     (1, 10, 0)
 ]
 Qm = [0]
-pytct.create('G', 2, delta, Qm)
+pitct.create('G', 2, delta, Qm)
 
-pytct.allevents('ALL', 'G')
+pitct.allevents('ALL', 'G')
 
 ```
 
@@ -31,7 +31,7 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [0, 3]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 
-pytct.allevents('ALL', 'G')
+pitct.allevents('ALL', 'G')
 ```

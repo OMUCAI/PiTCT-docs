@@ -17,7 +17,7 @@ delta1 = [
     (1, 10, 0)
 ]
 Qm = [0]
-pytct.create("DES1", 2, delta1, Qm)
+pitct.create("DES1", 2, delta1, Qm)
 
 
 delta2 = [
@@ -26,8 +26,8 @@ delta2 = [
     (2, 11, 0),
 ]
 Qm = [0]
-pytct.create("DES2", 3, delta2, Qm)
+pitct.create("DES2", 3, delta2, Qm)
 
-pytct.meet("DES", "DES1", "DES2")
+pitct.meet("DES", "DES1", "DES2")
 
 ```

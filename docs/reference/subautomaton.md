@@ -22,8 +22,8 @@ delta = [
     (0, 15, 3)
 ]
 Qm = [0, 1]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 
-pytct.subautomaton(S,G,[2],[])
+pitct.subautomaton(S,G,[2],[])
 
 ```

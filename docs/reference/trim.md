@@ -19,9 +19,9 @@ delta = [
     (2, 13, 3)
 ]
 Qm = [0, 1]
-pytct.create("model_1", 4, delta, Qm)
+pitct.create("model_1", 4, delta, Qm)
 
-pytct.trim("model_2", "model_1")
+pitct.trim("model_2", "model_1")
 ```
 
 ```python title="sample 2"
@@ -32,7 +32,7 @@ delta = [
     (3, 13, 2)
 ]
 Qm = [0, 3]
-pytct.create("model_1", 4, delta, Qm)
+pitct.create("model_1", 4, delta, Qm)
 
-pytct.trim("model_2", "model_1")
+pitct.trim("model_2", "model_1")
 ```

@@ -12,6 +12,6 @@ check if the automaton G is nonblocking
 
 ```python title="sample 1"
 
-pytct.is_nonblocking('G')
+pitct.is_nonblocking('G')
 
 ```

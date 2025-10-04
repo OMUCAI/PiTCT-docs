@@ -22,7 +22,7 @@ delta1 = [
     (4, 12, 5)
 ]
 Qm1 = [5]
-pytct.create("DES1", 6, delta1, Qm1)
+pitct.create("DES1", 6, delta1, Qm1)
 
 
 delta2 = [
@@ -33,7 +33,7 @@ delta2 = [
     (4, 22, 5)
 ]
 Qm2 = [5]
-pytct.create("DES2", 6, delta2, Qm2)
+pitct.create("DES2", 6, delta2, Qm2)
 
 
 state_pairs = [
@@ -44,6 +44,6 @@ state_pairs = [
 ]
 
 
-pytct.mutex("new_DES","DES1","DES2",state_pairs)
+pitct.mutex("new_DES","DES1","DES2",state_pairs)
 ```
 

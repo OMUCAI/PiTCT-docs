@@ -19,7 +19,7 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [3]
-pytct.create("model", 4, delta, Qm)
+pitct.create("model", 4, delta, Qm)
 
-pytct.statenum("model")
+pitct.statenum("model")
 ```

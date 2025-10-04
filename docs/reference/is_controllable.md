@@ -13,6 +13,6 @@ verify whether or not automaton G2 is controllable with respect to automaton G1
 
 ```python title="sample 1"
 
-pytct.is_controllable('G1','G2')
+pitct.is_controllable('G1','G2')
 
 ```

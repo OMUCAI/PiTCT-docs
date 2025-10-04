@@ -20,7 +20,7 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [3]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 
-pytct.sample_automaton('G',2)
+pitct.sample_automaton('G',2)
 ```

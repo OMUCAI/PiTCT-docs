@@ -1,9 +1,9 @@
-site_name: PyTCT
-site_url: https://omucai.github.io/PyTCT-docs/
+site_name: PiTCT
+site_url: https://omucai.github.io/PiTCT-docs/
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/OMUCAI/PyTCT-docs
+      link: https://github.com/OMUCAI/PiTCT-docs
     - icon: fontawesome/solid/flask
       link: https://www.caikai.org/
 

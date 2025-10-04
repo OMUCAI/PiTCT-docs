@@ -71,7 +71,7 @@ delta = [
     (0, 15, 3)
 ]
 Qm = [0, 1]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 ```
 
 ```python title="sample 2"
@@ -83,7 +83,7 @@ delta = [
     (0, 'sold', 3, 'c')
 ]
 Qm = [0,1]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 ```
 
 ```python title="sample 3"
@@ -95,5 +95,5 @@ delta = [
     ('idle', 'sold', 'sold', 'c')
 ]
 Qm = ['idle', 'running']
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 ```

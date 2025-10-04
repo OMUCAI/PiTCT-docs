@@ -20,8 +20,8 @@ delta = [
     (0, 15, 3)
 ]
 Qm = [0, 1]
-pytct.create('G', 4, delta, Qm)
+pitct.create('G', 4, delta, Qm)
 
-pytct.selfloop('G',['11,12,13'])
+pitct.selfloop('G',['11,12,13'])
 
 ```

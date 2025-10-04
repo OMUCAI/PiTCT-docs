@@ -16,14 +16,14 @@ Get AutomatonDisplay instance and display automaton.
 ## Example
 
 ```python title='render sample'
-model = pytct.display_automaton('model')
+model = pitct.display_automaton('model')
 model.render()
 ```
 An image window will appear. If you are in a Jupyter environment, it will appear below the cell.
 
 
 ```python title="save sample"
-model = pytct.display_automaton('model')
+model = pitct.display_automaton('model')
 model.save('model')
 ```
 
