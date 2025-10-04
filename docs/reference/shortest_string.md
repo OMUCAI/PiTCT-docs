@@ -1,3 +1,7 @@
+---
+title: shortest_string
+---
+
 # shortest_string(G,m,n)
 
 generate a shortest string from state m (which need not be the initial state) to another (reachable) state n

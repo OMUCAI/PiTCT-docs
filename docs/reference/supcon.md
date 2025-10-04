@@ -1,3 +1,7 @@
+---
+title: supcon
+---
+
 # supcon(SUP,G,SPEC)
 
  computes the optimal supervisor SUP that achieves the supremal controllable subspecfication of SPEC w.r.t the plant G.

@@ -1,3 +1,7 @@
+---
+title: subautomaton
+---
+
 # subautomaton(S,G,[states],[transitions])
 
 create subautomaton S by removing [states] and [transitions] from G 

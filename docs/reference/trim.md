@@ -1,3 +1,7 @@
+---
+title: trim
+---
+
 # trim(new_name, plant_name)
 
 is the trim (reachable and coreachable) substructure of DES

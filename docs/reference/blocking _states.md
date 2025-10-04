@@ -1,3 +1,7 @@
+---
+title: blocking _states
+---
+
 # blocking _states(DES)
 
 generate all blocking states in DES

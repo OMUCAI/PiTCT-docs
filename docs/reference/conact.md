@@ -1,3 +1,7 @@
+---
+title: conact
+---
+
 # conact(DES1, DES2)
 
 returns control data DAT for the supervisor DES2, which controls DES1

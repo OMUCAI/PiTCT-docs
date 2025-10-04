@@ -1,3 +1,7 @@
+---
+title: meet
+---
+
 # meet(DES,DES1,DES2,...,DESk)
 
 creates a reachable cartesian product of DES1, DES2, ..., DESk.

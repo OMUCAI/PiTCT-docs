@@ -1,6 +1,6 @@
-# PyTCT v0 → v1 Migration Guide
+# v0 to v1
 
-This document explains the changes and steps required to migrate PyTCT from v0 to v1.
+This document explains the changes and steps required to migrate PiTCT from v0 to v1.
 
 ## 1. Changes (Overview)
 

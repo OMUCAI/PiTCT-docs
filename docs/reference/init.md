@@ -1,3 +1,7 @@
+---
+title: init
+---
+
 # init(name)
 
 Create a working folder

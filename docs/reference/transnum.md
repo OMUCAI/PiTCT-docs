@@ -1,3 +1,7 @@
+---
+title: transnum
+---
+
 # transnum(name)
 
 returns the number of DES transitions

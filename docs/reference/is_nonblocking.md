@@ -1,3 +1,7 @@
+---
+title: is_nonblocking
+---
+
 # is_nonblocking(G)
 
 check if the automaton G is nonblocking 

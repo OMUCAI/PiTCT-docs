@@ -1,4 +1,8 @@
-# allevent(ALL, G)
+---
+title: allevents
+---
+
+# allevents(ALL, G)
 
 creates a one-state automaton ALL selflooped with all the events of G
 

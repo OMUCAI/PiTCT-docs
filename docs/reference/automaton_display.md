@@ -1,3 +1,7 @@
+---
+title: AutomatonDisplay
+---
+
 # AutomatonDisplay(name: string [, convert: bool, color: bool])
 
 Convert a DES file to Image

@@ -1,3 +1,7 @@
+---
+title: complement
+---
+
 # complement(DESCo, DES, auxiliary event)
 
 creates complement of DES

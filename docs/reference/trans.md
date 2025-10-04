@@ -1,3 +1,7 @@
+---
+title: trans
+---
+
 # trans(name)
 
 returns the list of DES transitions

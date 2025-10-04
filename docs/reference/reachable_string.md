@@ -1,3 +1,7 @@
+---
+title: reachable_string
+---
+
 # reachable_string(G,m)
 
 generate a string to the reachable state m

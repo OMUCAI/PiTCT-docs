@@ -1,3 +1,7 @@
+---
+title: events
+---
+
 # events(name)
 
 returns the list of DES events

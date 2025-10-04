@@ -1,3 +1,7 @@
+---
+title: isomorph
+---
+
 # isomorph(DES1,DES2)
 
 verify if two automata (DES1,DES2) are the same (modulo relabeling states and events)

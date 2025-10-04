@@ -1,3 +1,7 @@
+---
+title: create
+---
+
 # create(name, size, trans, marker)
 
 creates an automaton model of DES (a .DES file)

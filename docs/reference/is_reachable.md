@@ -1,3 +1,7 @@
+---
+title: is_reachable
+---
+
 # is_reachable(G)
 
 check reachability of the automaton G

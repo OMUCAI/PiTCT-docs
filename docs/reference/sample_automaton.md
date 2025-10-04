@@ -1,3 +1,7 @@
+---
+title: sample_automaton
+---
+
 # sample_automaton(G,m)
 
 sample G.DES with a string of length m

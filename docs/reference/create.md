@@ -1,3 +1,7 @@
+---
+title: create
+---
+
 # create(G, statenum, trans, marker)
 
 creates an automaton model (.DES file)

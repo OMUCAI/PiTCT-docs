@@ -1,3 +1,7 @@
+---
+title: is_coreachable
+---
+
 # is_coreachable(G)
 
 check coreachability of automaton G

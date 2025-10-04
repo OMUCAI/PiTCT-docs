@@ -1,3 +1,7 @@
+---
+title: simulate_automaton
+---
+
 # simulate_automaton(G,[s])
 
 simulate G.DES with a string s

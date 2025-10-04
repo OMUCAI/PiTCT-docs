@@ -1,3 +1,7 @@
+---
+title: uncontrollable_states
+---
+
 # uncontrollable_states(G1,G2)
 
   compute the set of all uncontrollable states of G2 w.r.t G1.

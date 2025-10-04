@@ -1,3 +1,7 @@
+---
+title: printdat
+---
+
 # printdat(TXT, DAT)
 
 convert a DAT file to a TXT file.

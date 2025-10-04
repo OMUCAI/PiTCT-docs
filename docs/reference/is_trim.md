@@ -1,3 +1,7 @@
+---
+title: is_trim
+---
+
 # is_trim(G)
 
 check if the automaton G is trim 

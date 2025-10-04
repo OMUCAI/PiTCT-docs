@@ -1,3 +1,7 @@
+---
+title: mutex
+---
+
 # mutex(NEW_DES, DES1, DES2, STATE_PAIRS)
 
 creates reachable cartesian product of DES1, DES2, excluding STATE_PAIRS.

@@ -1,3 +1,7 @@
+---
+title: is_controllable
+---
+
 # is_controllable(G1,G2)
 
 verify whether or not automaton G2 is controllable with respect to automaton G1

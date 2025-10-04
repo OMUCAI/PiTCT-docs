@@ -1,3 +1,7 @@
+---
+title: statenum
+---
+
 # statenum(name)
 
 returns the number of DES states

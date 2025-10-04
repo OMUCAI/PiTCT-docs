@@ -1,3 +1,7 @@
+---
+title: display_automaton
+---
+
 # display_automaton(name: string [, convert: bool, color: bool]) -> AutomatonDisplay
 
 Get AutomatonDisplay instance and display automaton.
