@@ -20,8 +20,10 @@ Please install graphviz from
 
 ---
 
+# Manual installation
+
 ## Download wheel file
-If you want to download wheel file, please download below button.
+If you want to download wheel file, please download below button.  
 [Get Installation File](https://github.com/OMUCAI/PiTCT/releases/latest){ .md-button }
 
 Next, Open up a terminal and install PiTCT with:
@@ -29,3 +31,5 @@ Next, Open up a terminal and install PiTCT with:
 ```bash
 pip install pitct-***.whl
 ```
+
+After install pitct, please install graphviz.
