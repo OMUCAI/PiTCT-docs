@@ -9,3 +9,10 @@ dependencies = [
     "mkdocs-awesome-nav>=3.2.0",
     "mkdocs-material>=9.6.5",
 ]
+
+[dependency-groups]
+jupyter = [
+    "jupyterlab>=4.5.1",
+    "jupyterlite-core==0.7.1",
+    "jupyterlite-pyodide-kernel==0.7.0",
+]
