@@ -20,10 +20,22 @@ jobs:
           python-version-file: ".python-version"
       
       - name: Install the project
-        run: uv sync --all-extras --dev
+        run: uv sync --all-groups
       
-      - name: Build
+      - name: Build Document
         run: uv run mkdocs build
+
+      - name: Download PiTCT Pyodide wheels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download --repo OMUCAI/PiTCT --pattern "*-pyodide_2025_*.whl" --dir custom_wheels
+
+      - name: Build JupyterLite
+        run: uv run jupyter lite build
+      
+      - name: Inject Graphviz WASM loader
+        run: uv run python patch/load_graphviz.py
       
       - uses: actions/upload-pages-artifact@v3
         with:
