@@ -1,0 +1,10 @@
+{
+  "PipliteAddon": {
+    "piplite_urls": ["custom_wheels/"]
+  },
+  "LiteBuildConfig": {
+    "contents": ["notebooks"],
+    "output_dir": "site/lite",
+    "apps": ["lab"]
+  }
+}
