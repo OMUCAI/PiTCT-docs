@@ -1,4 +1,4 @@
-# patch_index.py
+# load_graphviz.py - download Graphviz WASM assets and patch JupyterLite index.html
 import os
 import urllib.request
 import shutil
