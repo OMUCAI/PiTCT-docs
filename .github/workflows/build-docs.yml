@@ -28,13 +28,16 @@ jobs:
       - name: Download PiTCT Pyodide wheels
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: jupyterlite
         run: |
           gh release download --repo OMUCAI/PiTCT --pattern "*-pyodide_2025_*.whl" --dir custom_wheels
 
       - name: Build JupyterLite
+        working-directory: jupyterlite
         run: uv run jupyter lite build
       
       - name: Inject Graphviz WASM loader
+        working-directory: jupyterlite
         run: uv run python patch/load_graphviz.py
       
       - uses: actions/upload-pages-artifact@v3

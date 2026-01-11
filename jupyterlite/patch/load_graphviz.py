@@ -3,10 +3,15 @@ import os
 import urllib.request
 import shutil
 
+# Get the directory of the parent of this script
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(SCRIPT_DIR)
+ROOT_DIR = os.path.dirname(PARENT_DIR)
+
 # 1. Download Graphviz WASM files to local
 GRAPHVIZ_VERSION = "1.18.0"
 GRAPHVIZ_ESM_URL = f"https://cdn.jsdelivr.net/npm/@hpcc-js/wasm-graphviz@{GRAPHVIZ_VERSION}/+esm"
-STATIC_DIR = os.path.join("site", "lite", "static", "graphviz")
+STATIC_DIR = os.path.join(ROOT_DIR, "site", "lite", "static", "graphviz")
 
 def download_graphviz_files():
     """Download Graphviz WASM files to local static directory"""
@@ -45,7 +50,7 @@ INJECT_SCRIPT = """
 """
 
 # 3. Inject code to Generated index.html 
-INDEX_PATH = os.path.join("site", "lite", "lab", "index.html")
+INDEX_PATH = os.path.join(ROOT_DIR, "site", "lite", "lab", "index.html")
 
 print("Step 1: Downloading Graphviz WASM files...")
 if not download_graphviz_files():
