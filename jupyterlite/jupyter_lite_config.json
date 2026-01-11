@@ -4,7 +4,7 @@
   },
   "LiteBuildConfig": {
     "contents": ["notebooks"],
-    "output_dir": "site/lite",
+    "output_dir": "../site/lite",
     "apps": ["lab"]
   }
 }
