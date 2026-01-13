@@ -7,4 +7,3 @@ nav:
     - "reference/*.md"
   - Migration:
     - "migration/*.md"
-  - Playground: lite/index.html
