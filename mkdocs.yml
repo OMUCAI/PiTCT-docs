@@ -3,9 +3,15 @@ site_url: https://omucai.github.io/PiTCT-docs/
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/OMUCAI/PiTCT-docs
+      link: https://github.com/OMUCAI/PiTCT
+    - icon: fontawesome/solid/book
+      link: https://github.com/OMUCAI/PiTCT-docs/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/pitct/
     - icon: fontawesome/solid/flask
       link: https://www.caikai.org/
+repo_url: https://github.com/OMUCAI/PiTCT/
+edit_uri: https://github.com/OMUCAI/PiTCT-docs/edit/main/docs/
 
 theme:
   name: material
@@ -14,6 +20,7 @@ theme:
     primary: blue grey
   features:
     # - announce.dismiss
+    - content.action.edit
     - content.code.annotate
     - content.code.copy
     # - content.tabs.link
