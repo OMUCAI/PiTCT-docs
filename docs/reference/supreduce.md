@@ -2,7 +2,7 @@
 title: supreduce
 ---
 
-# supreduce(RSUP,G,SUP,CONDAT)
+# supreduce(RSUP, G, SUP, CONDAT)
 
 computes a reduced supervisor RSUP that preserves the control logic of the original supervisor SUP while reducing the number of states.
 
