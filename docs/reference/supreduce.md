@@ -4,7 +4,7 @@ title: supreduce
 
 # supreduce(RSUP,G,SUP,CONDAT)
 
- computes the optimal supervisor SUP that achieves the supremal controllable subspecfication of SPEC w.r.t the plant G.
+computes a reduced supervisor RSUP that preserves the control logic of the original supervisor SUP while reducing the number of states.
 
 ### Parameters
 | Name                         | Type   | Description                                                  |  Default   |
